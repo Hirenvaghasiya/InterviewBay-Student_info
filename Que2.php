@@ -3,10 +3,7 @@ error_reporting(0);
 $string = "Raj is the best programmer in the world";
 $i = 0;
 $wordArray = array();
-$lenArray = array();
 $cnt =0;
-$preLen = 0;
-$totalChar = 0;
 $word = "";
 while($string[$i] != NULL)
 {
