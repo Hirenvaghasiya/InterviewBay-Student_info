@@ -38,7 +38,7 @@ font-size: xx-large;">Student Information System</h2>
 color:#fff;
 background-color:#0B87AA;
 text-align:center;
-margin: 0 0 0 340px;
+margin: 0 0 0 400px;
 width:58%;
 height:50px;
 padding-top:30px;
@@ -47,12 +47,15 @@ font-size: xx-large;">Student List</h2>
                           color:#123456;
                           box-shadow:0 1px 1px 1px gray;
                           width:1000px;
-                          margin: 0px 200px 200px  170px;
+                          margin: 10px 200px 200px  170px;
                           float:left;
+                          text-align: center;
                         height: auto;
                         padding:10px;
                         font-size: large;
-                     border: 1px solid black;">
+                         
+                        border-collapse: collapse;
+                     " border="3px solid " >
                 <tr>
                     <td><b>Name</b></td>
                     <td><b>Email</b></td>
@@ -72,14 +75,14 @@ font-size: xx-large;">Student List</h2>
                 <tr>
                     <td><?php echo $row['name'];?></td>
                     <td><?php echo $row['email'];?></td>
-                    <td style="width: 100px;"><?php echo $row['date_of_birth'];?></td>
+                    <td style="width: 180px;"><?php echo $row['date_of_birth'];?></td>
                     <td><?php echo $row['phone'];?></td>
                     <td style="width: 100px;"><?php echo $row['collage'];?></td>
                     <td style="width: 300px;"><?php echo $row['address'];?></td>
                     <td style="width: 100px;"><?php echo $row['city'];?></td>
                     <td style="width: 100px;"><?php echo $row['state'];?></td>
                     <td ><?php echo $row['country'];?></td>
-                    <td><a href="index.php?edit=true&email=<?php echo $row['email']; ?>"><img src="edit.png" height="10px"/> </a></td>
+                    <td><a href="index.php?edit=true&email=<?php echo $row['email']; ?>"><img src="edit.png" height="20px"/> </a></td>
                     
                 </tr>
                 
