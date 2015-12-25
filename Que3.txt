@@ -1,4 +1,0 @@
-select FLOOR ((datediff(date_of_birth,CURRENT_DATE) /(-365.25))) as Age, count(name) as No_Of_Employee 
-from Emp
-group by Age 
-having Age between 30 AND 50;
