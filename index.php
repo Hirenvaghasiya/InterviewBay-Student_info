@@ -79,7 +79,8 @@ font-size: xx-large;">Student Information System</h2>
         <ul id="topTab">
             <li><a href="index.php" title="Home" class="current">Add Student</a></li>
             <li><a href="edit.php" title="Edit">Edit Details</a></li>
-            
+            <li><a href="Que2.php" title="Question-2">Question-2</a></li>
+            <li><a href="Que3.php" title="Question-2">Question-3</a></li>
         </ul>
     </div>
         <div id="mainform">
